@@ -1,0 +1,45 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+header,main{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    align-items: center;
+}
+
+h1{
+    font-weight: 900;
+    margin: 0;
+    font-size: 6rem;
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    height: 100vh;
+    padding-top: 0;
+}
+
+main img{
+    width: 50%;
+}
+
+header.dark,
+main.dark{
+    background-color: #121212;
+    color: orange;
+}
+
